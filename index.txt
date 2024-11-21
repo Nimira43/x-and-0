@@ -1,4 +1,0 @@
-file1			Nelson Piquet					Formula 1 driver
-file2			Brabham						    Formula 1 team
-file3			Jack Brabham					Formula 1 driver
-file4     Ron Tauranac          Formula 1 designer
