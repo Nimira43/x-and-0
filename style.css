@@ -4,7 +4,7 @@
   --dark: #111;
   --light: #faebd7;
   --grey-dk: #333;
-  --grey-lg: #ccc;
+  --grey-lg: #faf4f4;
   --orange: #ff4500;
 }
 
@@ -33,4 +33,35 @@ body {
   font-size: 1.5rem;
   color: var(--light);
   margin-top: 1rem;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 1.5rem;
+  background: var(--grey-dk);
+  border: 1px solid var(--grey-dk);
+  border-radius: 3px;
+  color: var(--light);
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+} 
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--orange);
+}
+
+.btn:hover {
+  background-color: var(--dark);
+  border-color: var(--dark);
+}
+
+.btn-alt:hover {
+  background-color: var(--grey-lg);
+  border-color: var(--orange);
 }
