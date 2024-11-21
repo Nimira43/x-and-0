@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Mr+Bedfort&family=The+Girl+Next+Door&display=swap');
+
+:root {
+  --dark: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'The Girl Next Door', cursive;
+  color: var(--dark);
+  background-color: antiquewhite;
+}
