@@ -26,13 +26,14 @@ body {
   font-family: 'Mr Bedfort', sans-serif;
   font-size: 2rem;
   font-style: italic;
+  margin: 10px;
 }
 
 .main-header-phrase {
   font-family: 'MonteCarlo', sans-serif;
   font-size: 1.5rem;
   color: var(--light);
-  margin-top: 1rem;
+  margin: 0 10px 10px 10px;;
 }
 
 .btn {
