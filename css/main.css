@@ -52,7 +52,7 @@ body {
 
 .btn-alt {
   background-color: transparent;
-  border-color: transparent;
+  border: 1px solid var(--orange);
   color: var(--orange);
 }
 
@@ -62,7 +62,8 @@ body {
 }
 
 .btn-alt:hover {
-  background-color: var(--grey-lg);
-  border-color: var(--orange);
+  border-color: var(--dark);
+  background-color: transparent;
+  color: var(--dark);
 }
 
