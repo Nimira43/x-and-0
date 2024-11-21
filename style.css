@@ -18,6 +18,19 @@ body {
 .main-header {
   background-color: var(--dark);
   color: var(--orange);
-  padding: 2rem 5%; 
+  padding: 1rem 5%; 
   text-align: center;
+}
+
+.main-header-title {
+  font-family: 'Mr Bedfort', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.main-header-phrase {
+  font-family: 'MonteCarlo', sans-serif;
+  font-size: 1.5rem;
+  color: var(--light);
+  margin-top: 1rem;
 }
