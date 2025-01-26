@@ -5,7 +5,6 @@
   width: 90%;
   background-color: var(--grey-lg);
   padding: 1rem;
-  text-align: center;
   color: var(--grey-dk);
   border-radius: 3px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -27,29 +26,7 @@
   margin: 0.5rem 0;
 }
 
-.form-control {
-  margin: 0.5rem 0;
-}
 
-.form-control label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.form-control input {
-  font-family: inherit;
-  font-size: 20px;
-  border: 1px solid var(--grey-dk);
-  border-radius: 3px;
-  width: 15rem;
-  padding: 0.35rem;
-  margin-bottom: 1rem;
-  outline: none;
-  cursor: pointer;
-  background-color: transparent;
-}
 
 @media (min-width: 48rem) {
   .modal {
