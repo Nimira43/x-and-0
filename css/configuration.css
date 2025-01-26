@@ -43,3 +43,26 @@
   display: flex;
 }
 
+#game-configuration li {
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+  background-color: #111;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#game-configuration h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: var(--light)
+}
+
+#game-configuration h3 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 0.5rem 0;
+  color: var(--orange);
+}
+
