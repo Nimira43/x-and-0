@@ -43,8 +43,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0.5rem 1.5rem;
-  background: var(--grey-dk);
-  border: 1px solid var(--grey-dk);
+  background: var(--dark);
+  border: 1px solid var(--dark);
   border-radius: 3px;
   color: var(--light);
   cursor: pointer;
@@ -58,8 +58,8 @@ body {
 }
 
 .btn:hover {
-  background-color: var(--dark);
-  border-color: var(--dark);
+  background-color: var(--orange);
+  border-color: var(--orange);
 }
 
 .btn-alt:hover {
