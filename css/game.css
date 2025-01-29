@@ -27,3 +27,9 @@
   color: var(--light);
   text-transform: uppercase;
 }
+
+#active-player-name {
+  font-weight: bold;
+  color: var(--orange);
+}
+
