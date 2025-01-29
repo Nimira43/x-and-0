@@ -69,5 +69,6 @@
 
 #gameboard li.disabled {
   background-color: #000;
+  color: var(--light);
   cursor: default;
 }
